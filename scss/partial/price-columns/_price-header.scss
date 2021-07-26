@@ -1,0 +1,45 @@
+.price-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: $headingFontFamily;
+    font-weight: bold;
+}
+
+.price{
+    display: flex;
+
+    font-size: 3.5rem;
+}
+
+.dollar-sign{
+    font-size: 1.5rem;
+    margin: .5rem .25rem 0 0;
+}
+
+.per-month{
+    font-size: .75rem;
+    align-self: flex-end;
+    margin-bottom: .8rem;
+
+    text-transform: uppercase;
+}
+
+.plan-name{
+    text-transform: uppercase;
+    font-size: .9rem;
+
+    margin: 1rem 0 0 0;
+}
+
+.divider{
+    height: 1px;
+    width: 70%;
+
+    background-color: rgba(0, 0, 0, .2);
+
+    justify-content: center;
+
+    margin: 2rem 0;
+}

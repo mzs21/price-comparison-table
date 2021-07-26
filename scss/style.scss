@@ -1,0 +1,52 @@
+@import 'partial/variables';
+@import 'partial/price-columns/price-columns';
+@import 'partial/price-columns/price-header';
+@import 'partial/price-columns/features';
+@import 'partial/button';
+@import 'partial/screens';
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #F8F9FB;
+    font-family: $bodyFontFamily;
+}
+
+.layout{
+    display: grid;
+    grid-template: repeat(12, 1fr)/ repeat(12, 1fr);
+    
+    position: relative;
+
+    justify-content: center;
+    align-items: center; 
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.popular{
+    position: relative;
+    background-color: $accentColor;
+    color: white;
+
+    box-shadow: 0 7px 30px rgba(52,13,135,0.3);
+
+    margin: -1.5rem 0;
+
+    
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+
+    .divider{
+        background-color: wheat
+    }
+
+    button{
+        color: $accentColor;
+        background-color: white;
+    } 
+}

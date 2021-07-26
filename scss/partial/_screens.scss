@@ -1,0 +1,15 @@
+$media-desktop: "only screen and (max-width : 1024px)";
+$media-tablet: "only screen and (max-width : 768px)";
+
+
+@media #{$media-desktop} {
+    .layout{
+        transform: scale(.9);
+    }
+}
+
+@media #{$media-tablet} {
+    .layout{
+        transform: scale(.8);
+    }
+}

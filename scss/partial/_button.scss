@@ -1,0 +1,33 @@
+button{
+    background-color: $accentColor;
+    border: none;
+    color: white;
+
+     width: 70%;
+
+    margin-top: 3rem;
+
+    padding: .75rem 1rem;
+
+    cursor: pointer;
+
+    font-weight: bold;
+    font-family: $headingFontFamily;
+    border-radius: 8px;
+
+    transform: scale(1);
+
+    transition: 100ms;
+
+    &:hover, &:focus{
+        transform: scale(1.1);
+    }
+
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
