@@ -4,6 +4,7 @@
 @import 'partial/price-columns/features';
 @import 'partial/button';
 @import 'partial/screens';
+@import 'partial/footer';
 
 *, *::before, *::after{
     box-sizing: border-box;
@@ -13,6 +14,11 @@ body{
     margin: 0;
     background-color: #F8F9FB;
     font-family: $bodyFontFamily;
+}
+
+section{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .layout{

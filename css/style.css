@@ -122,16 +122,52 @@ button:hover, button:focus {
   justify-content: center;
 }
 
-@media only screen and (max-width: 1024px) {
-  .layout {
-    transform: scale(0.9);
+@media only screen and (max-width: 600px) {
+  .price-column-first {
+    grid-row: 1 / 2;
+    margin-bottom: 1rem;
+  }
+  .price-column-middle {
+    grid-row: 5 / 6;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+  .price-column-last {
+    grid-row: 11 / 12;
+  }
+  .price-column {
+    grid-column: 2/-2;
+  }
+  .price-column:first-child {
+    border-top-right-radius: 8px;
+    margin-top: 1rem;
+  }
+  .price-column:last-child {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 8px;
+    margin-bottom: 1rem;
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .layout {
-    transform: scale(0.8);
-  }
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  transform: scale(0.6);
+}
+
+footer .github {
+  background-color: inherit;
+  background-image: url("https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg");
+  width: 4em;
+  height: 4em;
+}
+
+footer .linkedIn {
+  background-color: inherit;
+  background-image: url("https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg");
+  width: 4em;
+  height: 4em;
 }
 
 *, *::before, *::after {
@@ -142,6 +178,11 @@ body {
   margin: 0;
   background-color: #F8F9FB;
   font-family: "Lato", sans-serif;
+}
+
+section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .layout {
