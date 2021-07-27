@@ -1,3 +1,7 @@
 $accentColor: #641bff;
 $headingFontFamily: 'Poppins', sans-serif;
 $bodyFontFamily: 'Lato', sans-serif;
+
+$media-mobile-l-max: "only screen and (max-width : 600px)";
+$media-mobile-l-min: "only screen and (min-width : 600px)";
+$media-mobile-galaxy-fold: "only screen and (max-width : 280px)";

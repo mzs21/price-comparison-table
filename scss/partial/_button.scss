@@ -1,9 +1,15 @@
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 button{
     background-color: $accentColor;
     border: none;
     color: white;
 
-     width: 70%;
+    width: 70%;
 
     margin-top: 3rem;
 
@@ -22,12 +28,4 @@ button{
     &:hover, &:focus{
         transform: scale(1.1);
     }
-
-}
-
-.btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
 }

@@ -1,7 +1,5 @@
-$media-mobile-l: "only screen and (max-width : 600px)";
 
-
-@media #{$media-mobile-l}{
+@media #{$media-mobile-l-max}{
     .price-column-first{
         grid-row: 1 / 2;
         margin-bottom: 1rem;
@@ -34,5 +32,21 @@ $media-mobile-l: "only screen and (max-width : 600px)";
             border-bottom-left-radius: 8px;
             margin-bottom: 1rem;
         }
+    }
+
+    footer{
+        margin-top: 70rem;
+    }
+}
+
+@media #{$media-mobile-l-min}{
+    footer{
+        margin-top: 2rem;
+    }
+}
+
+@media #{$media-mobile-galaxy-fold}{
+    footer{
+        margin-top: 64rem;
     }
 }
